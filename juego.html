@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Juego de Preguntas</title>
+  <!--1. LLAMEMOS AL ARCHIVO DE ESTILO-->
+  <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+  <h1>Cuando estes listo presiona el botón</h1>
+
+  <button onclick="tempo()">Iniciar temporizador</button>
+  <!--2. AGREGA UN ID CON EL NOMBRE TIEMPO EN LA ETIQUETA H2-->
+  <h2 id="tiempo"></h2>
+  
+   <!--3. AGREGA UN ID CON EL NOMBRE PREGUNTA EN LA ETIQUETA DIV-->
+  <div id="pregunta"></div>
+
+   <!--4. AGREGA UN ID CON EL NOMBRE RESPUESTA EN LA ETIQUETA INPUT-->
+  <input id="respuesta"  type="text">
+  <br><br>
+
+  <!--5. AGREGA EL EVENTO ONCLICK Y UNA FUNCIÓN EN LA ETIQUETA BUTTON-->
+  <button onclick="checear()">Checear</button>
+
+  <!--6. AGREGA UN ID CON EL NOMBRE RESULTADO EN LA ETIQUETA P--> 
+  <p id="resultado"></p>
+
+  <!--7. AGREGA UN ID CON EL NOMBRE PUNTUACIÓN EN LA ETIQUETA P--> 
+  <p id="puntuacion"></p>
+
+  <!--8. AGREGA EL EVENTO ONCLICK Y UNA FUNCIÓN EN LA ETIQUETA BUTTON-->
+  <button onclick="sipre()">Siguiente</button>
+<script src="juego.js">
+
+</script>
+ <!--9. LLAMA AL ARCHIVO JS-->
+
+
+</body>
+</html>
